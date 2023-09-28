@@ -1,0 +1,9 @@
+p > img {
+	height: 75px;
+	width: 75px;
+	margin: 10px 10px;
+}
+
+.language-icons {
+	display: flex;
+}
