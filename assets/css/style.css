@@ -13,3 +13,23 @@ article > img {
 	width: 40px;
 	margin: 10px 10px;
 }
+
+.resume-link {
+	font-size: 1.75rem;
+	text-decoration: none;
+	color: lightgray;
+}
+
+.name-header {
+	font-size: 1.75rem;
+}
+
+.education-container {
+	display: flex;
+	justify-content: space-evenly;
+
+	> img {
+		height: 40%;
+		width: 40%;
+	}
+}
