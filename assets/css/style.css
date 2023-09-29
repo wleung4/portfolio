@@ -7,3 +7,9 @@ p > img {
 .language-icons {
 	display: flex;
 }
+
+article > img {
+	height: 40px;
+	width: 40px;
+	margin: 10px 10px;
+}
