@@ -27,9 +27,17 @@ article > img {
 .education-container {
 	display: flex;
 	justify-content: space-evenly;
+}
+
+.individual-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	gap: 1rem;
 
 	> img {
-		height: 40%;
-		width: 40%;
+		object-fit: contain;
+		width: 70%;
 	}
 }
